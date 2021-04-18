@@ -16,9 +16,6 @@ git commit -m "$message"
 echo "$(tput setaf 41)Your message is : $message"
 #read -p "Are you sure : " ANS
 git push
-
-
-echo "+-----------------------------------+++-----------------------------------+"
 echo "$(tput setaf 31)+---------------------------------+"
 echo "$(tput setaf 31)|    Thank You! Akash Kumar       |"
 echo "$(tput setaf 31)+---------------------------------+"
