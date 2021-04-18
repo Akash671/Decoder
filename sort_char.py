@@ -11,4 +11,3 @@ for i in range(len(A)):
             s.append(a[j])
 for i in s:
     print(i,end=" ")
-#print(a)
