@@ -13,9 +13,9 @@ echo "$(tput setaf 10)+----------------------+ +---------------------+"
 read -p "| Enter commit message |:|" message
 echo "$(tput setaf 10)+----------------------+ +---------------------+"
 git commit -m "$message"
-echo "$(tput setaf 41)Your message is : $message"
-#read -p "Are you sure : " ANS
+#echo "$(tput setaf 41)Your message is : $message"
 git push
+
 echo "$(tput setaf 31)+---------------------------------+"
 echo "$(tput setaf 31)|    Thank You! Akash Kumar       |"
 echo "$(tput setaf 31)+---------------------------------+"
