@@ -34,7 +34,7 @@ int prime(int n)
 	{
 		for(int i=2;i<=n/2;++i)
 		{
-			if(n%2==0)
+			if(n%i==0)
 			{
 				return 0;
 			}
