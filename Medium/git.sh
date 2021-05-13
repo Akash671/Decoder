@@ -10,7 +10,7 @@ echo "$(tput setaf 46)+-----------------+ +--------------------------|+"
 git add $name
 
 echo "$(tput setaf 10)+----------------------+ +---------------------+"
-read -p "| Enter pin |:|" pin
+read -p "| Enter github pin |:|" pin
 echo "$(tput setaf 10)+----------------------+ +---------------------+"
 message="author : @akash kumar "
 git commit -m "$message"
